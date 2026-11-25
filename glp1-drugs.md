@@ -28,3 +28,9 @@ The drugs are altered versions of GLP-1 that resist breakdown, so they last for 
 ---
 
 *This is general information, not medical advice. A doctor can tell you which drug and dose fit your health history.*
+
+## Figure: insulin only when glucose is high
+
+![GLP-1 glucose-gated insulin rig](figures/glp1-gate/preview.png)
+
+`figures/glp1-gate/glp1-gate.html` is an interactive version (download it and open it in a browser; there is also a `-light` version). Hover to change blood glucose; click to seat or lift the GLP-1 cartridge. Below about 90 mg/dL the plunger stays on its ledge whether the drug is in or not; above it, the drug doubles the insulin reading (the 2× is illustrative). Built with the [Anatomy](https://github.com/wheresryan22/anatomy) skill; `build.mjs` rebuilds it.
